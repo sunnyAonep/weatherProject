@@ -5,7 +5,6 @@
   flex-direction: column;
   align-items: center;
   background: #27737d 0% 0% no-repeat padding-box;
-  color: white;
   border-radius: 30px;
 }
 .headline {
@@ -28,18 +27,18 @@
   margin: 0;
   font: normal normal normal 26px/26px Heebo;
   letter-spacing: 0px;
-  color: #e8f1f2;
+  color: #E8F1F2;
 }
 .country {
   margin: 0;
   font: normal normal 300 22px/22px Heebo;
   letter-spacing: 0px;
-  color: #a8c6cb;
+  color: #A8C6CB;
 }
 .date {
   font: normal normal 300 22px/22px Heebo;
   letter-spacing: 0px;
-  color: #a8c6cb;
+  color: #A8C6CB;
 }
 
 .weatherContainer {
@@ -70,7 +69,7 @@
 .weather {
   margin: 0;
   font: normal normal 300 30px/1px Heebo;
-  color: #e8f1f2;
+  color: #E8F1F2;
 }
 
 .detailoContainer {
@@ -140,7 +139,6 @@
     flex-direction: column;
     align-items: center;
     background-color: #236f70;
-    color: white;
     border-radius: 10px;
   }
   .headline {
@@ -162,17 +160,14 @@
   .city {
     font: normal normal normal 18px/24px Heebo;
     letter-spacing: 0px;
-    color: #e8f1f2;
   }
   .country {
     font: normal normal 300 15px/10px Heebo;
     letter-spacing: 0px;
-    color: #a8c6cb;
   }
   .date {
     font: normal normal 300 15px/0px Heebo;
     letter-spacing: 0px;
-    color: #a8c6cb;
   }
 
   .weatherContainer {
@@ -187,14 +182,12 @@
   .temperature {
     text-align: left;
     font: normal normal bold 80px/100px Heebo;
-    color: #ffffff;
     letter-spacing: 0px;
     height: 40%;
   }
   .weather {
     font: normal 200 20px/10px Heebo;
     letter-spacing: 0px;
-    color: #e8f1f2;
   }
   .dote {
     position: absolute;
@@ -220,12 +213,10 @@
 
   .subject {
     font: normal normal 300 15px/12px Heebo;
-    color: #e8f1f2;
   }
 
   .subjectData {
     font: normal normal 14px/22px Heebo;
-    color: #ffffff;
   }
   .hoursContainer {
     display: flex;
@@ -244,11 +235,9 @@
   .currentTime {
     font: normal normal 300 15px/20px Heebo;
     letter-spacing: 0px;
-    color: #a8c6cb;
   }
   .TimeTemperature {
     font: normal normal 12px/16px Heebo;
     letter-spacing: 0px;
-    color: #ffffff;
   }
 }

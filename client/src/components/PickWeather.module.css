@@ -1,7 +1,6 @@
 .PickWeather {
   height: 70%;
   width: 85%;
-  color: aliceblue;
   flex-direction: column;
   align-items: flex-start;
   display: flex;
@@ -37,7 +36,8 @@
   height: 80%;
   border: 1px solid #ccc;
   border-radius: 10px;
-  font-size: large;
+  font: normal normal normal 22px/32px Heebo;
+  color: #363636;
 }
 .buttonContainer{
   position: absolute;
@@ -70,7 +70,7 @@
 }
 
 .error {
-  color: rgb(255, 33, 33);
+  color: rgb(239, 7, 7);
   font: normal normal 300 16px/16px Heebo;
 }
 
@@ -78,7 +78,6 @@
   .PickWeather {
     height: 100%;
     width: 85%;
-    color: aliceblue;
     flex-direction: column;
     display: flex;
     gap: 3.5rem;
@@ -90,7 +89,6 @@
     text-align: left;
     font: normal normal 300 28px/34px Heebo;
     letter-spacing: 0px;
-    color: #707070;
     width: 60%;
     height: 50%;
   }
@@ -112,7 +110,6 @@
   .cityInput {
     width: 100%;
     height: 100%;
-    border: 1px solid #ccc;
     border-radius: 10px;
   }
 
@@ -126,9 +123,7 @@
     width: 25%;
     height: 100%;
     text-align: center;
-    background: #fff;
     border-radius: 10px;
-    color: #ffffff;
   }
   .button {
     width: 60%;
@@ -139,11 +134,9 @@
     border: 1px solid #046b3b;
     font: normal normal 300 18px/27px Heebo;
     letter-spacing: 0px;
-    color: #ffffff;
   }
 
   .error {
-    color: rgb(255, 33, 33);
     font: normal normal 300 14px/16px Heebo;
   }
 }
@@ -152,7 +145,6 @@
   .PickWeather {
     height: 80%;
     width: 85%;
-    color: aliceblue;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
@@ -163,7 +155,6 @@
     text-align: left;
     font: normal normal 300 28px/34px Heebo;
     letter-spacing: 0px;
-    color: #707070;
     width: 100%;
   }
 
@@ -182,7 +173,6 @@
   .cityInput {
     width: 100%;
     height: 100%;
-    border: 1px solid #ccc;
     border-radius: 10px;
   }
 
@@ -196,23 +186,18 @@
     width: 30%;
     height: 100%;
     text-align: center;
-    background: #fff;
     border-radius: 10px;
-    color: #ffffff;
   }
   .button {
     width: 90%;
     height: 80%;
     text-align: center;
-    background: #046b3b;
     border-radius: 10px;
     border: 1px solid #046b3b;
     font: normal normal 300 18px/27px Heebo;
     letter-spacing: 0px;
-    color: #ffffff;
   }
   .error {
-    color: rgb(255, 33, 33);
     font: normal normal 300 14px/16px Heebo;
   }
 }
