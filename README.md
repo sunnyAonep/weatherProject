@@ -57,7 +57,7 @@ Follow these steps to set up and run both the client and server:
    ```bash
    cd ..
    cd client
-  npm run dev
+   npm run dev
    ```
 
 9. **Enjoy the Application!** 😊
