@@ -2,6 +2,8 @@
 
 Welcome to the Weather App! This project, developed for **Fintek Digital**, allows you to check the weather around the world using a simple and intuitive interface.
 
+<img width="1461" alt="Screenshot 2024-08-08 at 20 43 20" src="https://github.com/user-attachments/assets/a9731fea-e7ab-46f7-af01-8f7e5530eb5c">
+
 ## 📁 Project Structure
 
 The project is divided into two main folders:
