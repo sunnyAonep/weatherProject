@@ -1,21 +1,36 @@
-# Guide to Activating the Site
+# 🌤️ Weather App
+
+Welcome to the Weather App! This project, developed for **Fintek Digital**, allows you to check the weather around the world using a simple and intuitive interface.
+
+## Project Structure
+
+The project is divided into two main folders:
+
+- **Client**: The frontend of the application built with React.
+- **Server**: The backend of the application built with Node.js and Express.
+
+# Lets Active the Site
 
 Follow these steps to set up and run both the client and server:
 
 1. **Navigate to the Client Directory**:
    ```bash
+   git clone https://github.com/nirglus/Weather-App.git
+   cd weather_app
+   ```
+
+2. **Navigate to the Client Directory**:
+   ```bash
+   git clone https://github.com/nirglus/Weather-App.git
    cd client
    ```
-2. **Install Client Dependencies**:
+3. **Install Client Dependencies**:
    ```bash
    npm install
    ```
-3. **Return to the Root Directory**:
+4. **Return to the Root Directory**:
    ```bash
    cd ..
-   ```
-4. **Navigate to the Server Directory**:
-   ```bash
    cd server
    ```
 5. **Install Server Dependencies**:
@@ -25,36 +40,36 @@ Follow these steps to set up and run both the client and server:
 6. **Create a `.env` File**:
 
    - In the `server` directory, create a file named `.env`.
-
-7. **Add Your Weather API Key**:
-
+   
    - Open the `.env` file and add the following line, replacing `your_weather_api_key_here` with your actual API key:
      ```env
      WEATHER_KEY=your_weather_api_key_here
      ```
 
-8. **Start the Server**:
+7. **Start the Server**:
 
    ```bash
    npm run dev
    ```
 
-9. **Return to the Root Directory**:
+8. **Return to the Root Directory**:
 
    ```bash
    cd ..
+   cd client
+  npm run dev
    ```
 
-10. **Navigate Back to the Client Directory**:
+9. **Enjoy the Application!** 😊
 
-    ```bash
-    cd client
-    ```
+### 🛠️ Technologies Used
+## Frontend:
 
-11. **Start the Client**:
+- React
+- Vite
 
-    ```bash
-    npm run dev
-    ```
+## Backend:
 
-12. **Enjoy the Application!** 😊
+- Node.js
+- Express
+- WeatherAPI
