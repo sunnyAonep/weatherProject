@@ -46,15 +46,10 @@ const getWeatherData = async (req, res) => {
     const weatherData = response.data;
     const now = new Date();
     const fiveHoursLater = new Date(now.getTime() + 5 * 60 * 60 * 1000);
-    const hoursData = weatherData.forecast.forecastday.flatMap(
-      (day) => day.hour
-    );
+    const hoursData = weatherData.forecast.forecastday.flatMap((day) => day.hour);
 
     const filterFiveHours = hoursData
-      .filter(
-        (hour) =>
-          new Date(hour.time) > now && new Date(hour.time) <= fiveHoursLater
-      )
+      .filter((hour) =>new Date(hour.time) > now && new Date(hour.time) <= fiveHoursLater)
       .map((hour) => ({
         time: new Date(hour.time).toLocaleTimeString("en-GB", {
           hour: "2-digit",
