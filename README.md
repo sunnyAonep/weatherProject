@@ -1,15 +1,15 @@
-# 🌤️ Weather App
+# ☁️ Weather App
 
 Welcome to the Weather App! This project, developed for **Fintek Digital**, allows you to check the weather around the world using a simple and intuitive interface.
 
-## Project Structure
+## 📁 Project Structure
 
 The project is divided into two main folders:
 
 - **Client**: The frontend of the application built with React.
 - **Server**: The backend of the application built with Node.js and Express.
 
-# Lets Active the Site
+## 🛠️ How to Set Up the Application
 
 Follow these steps to set up and run both the client and server:
 
