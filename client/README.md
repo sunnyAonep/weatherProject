@@ -1,60 +1,8 @@
-# Guide to Activating the Site
+# React + Vite
 
-Follow these steps to set up and run both the client and server:
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-1. **Navigate to the Client Directory**:
-   ```bash
-   cd client
-   ```
-2. **Install Client Dependencies**:
-   ```bash
-   npm install
-   ```
-3. **Return to the Root Directory**:
-   ```bash
-   cd ..
-   ```
-4. **Navigate to the Server Directory**:
-   ```bash
-   cd server
-   ```
-5. **Install Server Dependencies**:
-   ```bash
-   npm install
-   ```
-6. **Create a `.env` File**:
+Currently, two official plugins are available:
 
-   - In the `server` directory, create a file named `.env`.
-
-7. **Add Your Weather API Key**:
-
-   - Open the `.env` file and add the following line, replacing `your_weather_api_key_here` with your actual API key:
-     ```env
-     WEATHER_KEY=your_weather_api_key_here
-     ```
-
-8. **Start the Server**:
-
-   ```bash
-   npm run dev
-   ```
-
-9. **Return to the Root Directory**:
-
-   ```bash
-   cd ..
-   ```
-
-10. **Navigate Back to the Client Directory**:
-
-    ```bash
-    cd client
-    ```
-
-11. **Start the Client**:
-
-    ```bash
-    npm run dev
-    ```
-
-12. **Enjoy the Application!** 😊
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
