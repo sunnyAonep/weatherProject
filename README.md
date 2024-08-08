@@ -18,7 +18,7 @@ Follow these steps to set up and run both the client and server:
 1. **Navigate to the Client Directory**:
    ```bash
    git clone https://github.com/nirglus/Weather-App.git
-   cd weather_app
+   cd weatherproject
    ```
 
 2. **Navigate to the Client Directory**:
