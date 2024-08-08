@@ -55,7 +55,7 @@ const getWeatherData = async (req, res) => {
           hour: "2-digit",
           minute: "2-digit",
         }),
-        temperature: hour.temp_c,
+        temperature: Math.round(hour.temp_c),
       }));
 
     res.json({
@@ -63,11 +63,11 @@ const getWeatherData = async (req, res) => {
       region: weatherData.location.region,
       country: weatherData.location.country,
       date: titleDate(new Date(weatherData.location.localtime)),
-      temperature: weatherData.current.temp_c,
+      temperature: Math.round(weatherData.current.temp_c),
       weather: weatherData.current.condition.text,
       precipitation: `${weatherData.current.precip_mm} mm`,
       humidity: `${weatherData.current.humidity}%`,
-      wind: `${weatherData.current.wind_kph} km/h`,
+      wind: `${Math.round(weatherData.current.wind_kph)} km/h`,
       time: filterFiveHours,
       latitude: weatherData.location.lat,
       longitude: weatherData.location.lon,

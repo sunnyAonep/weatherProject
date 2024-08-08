@@ -3,27 +3,6 @@ import styles from "./PickWeather.module.css";
 
 export default function PickWeather({ onCitySubmit, notValid }) {
   const [city, setCity] = useState("");
-  const [suggestions, setSuggestions] = useState([]);
-
-  const fetchCitySuggestions = async (query) => {
-    try {
-      const response = await fetch(
-        `http://api.weatherapi.com/v1/search.json?key=818b03431c944f5dbf2180141240708&q=${query}`
-      );
-      const data = await response.json();
-      setSuggestions(data);
-    } catch (error) {
-      console.error("Error fetching city suggestions:", error);
-    }
-  };
-
-  useEffect(() => {
-    if (city.length > 2) {
-      fetchCitySuggestions(city);
-    } else {
-      setSuggestions([]);
-    }
-  }, [city]);
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -31,12 +10,6 @@ export default function PickWeather({ onCitySubmit, notValid }) {
       onCitySubmit(city);
       setCity("");
     }
-  };
-
-  const handleSuggestionClick = (suggestion) => {
-    setCity(suggestion.name);
-    setSuggestions([]);
-    onCitySubmit(suggestion.name);
   };
 
   return (
