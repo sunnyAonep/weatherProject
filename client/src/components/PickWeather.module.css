@@ -14,14 +14,14 @@
   color: #707070;
   width: 50%;
 }
-.form {
+.format {
   display: flex;
   flex-direction: column;
   width: 100%;
   height: 40%;
 }
 
-.label {
+.inputTitle {
   text-align: left;
   font: normal normal 300 16px/22px Heebo;
   letter-spacing: 0px;
@@ -32,20 +32,30 @@
   height: 40%;
   position: relative;
 }
-.input {
+.cityInput {
   width: 100%;
   height: 80%;
   border: 1px solid #ccc;
   border-radius: 10px;
   font-size: large;
 }
-
-.button {
+.buttonContainer{
   position: absolute;
-  top: 0.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0.1rem;
   right: 0;
-  width: 24%;
-  height: 60%;
+  width: 25%;
+  height: 80%;
+  text-align: center;
+  background: #fff;
+  border-radius: 10px;
+  color: #ffffff;
+}
+.button {
+  width: 70%;
+  height: 70%;
   text-align: center;
   background: #046b3b;
   border-radius: 10px;
@@ -85,7 +95,7 @@
     height: 50%;
   }
 
-  .form {
+  .format {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -99,16 +109,37 @@
     width: 75%;
   }
 
-  .input {
+  .cityInput {
     width: 100%;
     height: 100%;
     border: 1px solid #ccc;
     border-radius: 10px;
   }
 
+  .buttonContainer{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0.1rem;
+    right: 0;
+    width: 25%;
+    height: 100%;
+    text-align: center;
+    background: #fff;
+    border-radius: 10px;
+    color: #ffffff;
+  }
   .button {
-    width: 15%;
-    height: 70%;
+    width: 60%;
+    height: 80%;
+    text-align: center;
+    background: #046b3b;
+    border-radius: 10px;
+    border: 1px solid #046b3b;
+    font: normal normal 300 18px/27px Heebo;
+    letter-spacing: 0px;
+    color: #ffffff;
   }
 
   .error {
@@ -136,7 +167,7 @@
     width: 100%;
   }
 
-  .form {
+  .format {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -148,18 +179,38 @@
     width: 100%;
   }
 
-  .input {
+  .cityInput {
     width: 100%;
     height: 100%;
     border: 1px solid #ccc;
     border-radius: 10px;
   }
 
-  .button {
+  .buttonContainer{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0.1rem;
+    right: 0;
     width: 25%;
-    height: 70%;
+    height: 100%;
+    text-align: center;
+    background: #fff;
+    border-radius: 10px;
+    color: #ffffff;
   }
-
+  .button {
+    width: 90%;
+    height: 80%;
+    text-align: center;
+    background: #046b3b;
+    border-radius: 10px;
+    border: 1px solid #046b3b;
+    font: normal normal 300 18px/27px Heebo;
+    letter-spacing: 0px;
+    color: #ffffff;
+  }
   .error {
     color: rgb(255, 33, 33);
     font: normal normal 300 14px/16px Heebo;

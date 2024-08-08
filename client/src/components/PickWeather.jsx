@@ -17,19 +17,22 @@ export default function PickWeather({ onCitySubmit, notValid }) {
       <h1 className={styles.title}>
         Use our weather app to see the weather around the world
       </h1>
-      <form className={styles.form} onSubmit={handleSubmit}>
-        <label className={styles.label}>City name</label>
+      <form className={styles.format} onSubmit={handleSubmit}>
+        <label className={styles.inputTitle}>City name</label>
         <div className={styles.inputAndButton}>
           <input
             type="text"
-            className={styles.input}
+            className={styles.cityInput}
             placeholder="Tel Aviv"
             value={city}
             onChange={(e) => setCity(e.target.value)}
           />
-          <button type="submit" className={styles.button}>
+          <div className={styles.buttonContainer}>
+           <button type="submit" className={styles.button}>
             Check
-          </button>
+          </button>  
+          </div>
+         
           {notValid ? <p className={styles.error}>Enter a valid city</p> : null}
         </div>
       </form>
