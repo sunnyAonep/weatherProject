@@ -1,0 +1,167 @@
+.PickWeather {
+  height: 70%;
+  width: 85%;
+  color: aliceblue;
+  flex-direction: column;
+  align-items: flex-start;
+  display: flex;
+  gap: 2rem;
+}
+.title {
+  text-align: left;
+  font: normal normal 300 30px/44px Heebo;
+  letter-spacing: 0px;
+  color: #707070;
+  width: 50%;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 40%;
+}
+
+.label {
+  text-align: left;
+  font: normal normal 300 16px/22px Heebo;
+  letter-spacing: 0px;
+  color: #707070;
+}
+.inputAndButton {
+  width: 70%;
+  height: 40%;
+  position: relative;
+}
+.input {
+  width: 100%;
+  height: 80%;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: large;
+}
+
+.button {
+  position: absolute;
+  top: 0.6rem;
+  right: 0;
+  width: 24%;
+  height: 60%;
+  text-align: center;
+  background: #046b3b;
+  border-radius: 10px;
+  border: 1px solid #046b3b;
+  font: normal normal 300 18px/27px Heebo;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+
+.button:hover {
+  background-color: #0b7c47;
+}
+
+.error {
+  color: rgb(255, 33, 33);
+  font: normal normal 300 16px/16px Heebo;
+}
+
+@media (max-width: 1100px) {
+  .PickWeather {
+    height: 100%;
+    width: 85%;
+    color: aliceblue;
+    flex-direction: column;
+    display: flex;
+    gap: 3.5rem;
+  }
+
+  .title {
+    align-items: flex-end;
+    display: flex;
+    text-align: left;
+    font: normal normal 300 28px/34px Heebo;
+    letter-spacing: 0px;
+    color: #707070;
+    width: 60%;
+    height: 50%;
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    height: 50%;
+  }
+
+  .inputAndButton {
+    height: 3rem;
+    width: 75%;
+  }
+
+  .input {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+
+  .button {
+    width: 15%;
+    height: 70%;
+  }
+
+  .error {
+    color: rgb(255, 33, 33);
+    font: normal normal 300 14px/16px Heebo;
+  }
+}
+
+@media (max-width: 600px) {
+  .PickWeather {
+    height: 80%;
+    width: 85%;
+    color: aliceblue;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    display: flex;
+  }
+
+  .title {
+    text-align: left;
+    font: normal normal 300 28px/34px Heebo;
+    letter-spacing: 0px;
+    color: #707070;
+    width: 100%;
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+  }
+
+  .inputAndButton {
+    height: 2.8rem;
+    width: 100%;
+  }
+
+  .input {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+
+  .button {
+    width: 25%;
+    height: 70%;
+  }
+
+  .error {
+    color: rgb(255, 33, 33);
+    font: normal normal 300 14px/16px Heebo;
+  }
+}

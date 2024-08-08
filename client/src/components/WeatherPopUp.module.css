@@ -1,0 +1,254 @@
+.WeatherPopUpContainer {
+  width: 70%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #27737d 0% 0% no-repeat padding-box;
+  color: white;
+  border-radius: 30px;
+}
+.headline {
+  height: 28%;
+  width: 100%;
+  align-items: center;
+  justify-content: flex-end;
+  display: flex;
+  flex-direction: column;
+}
+.cityAndCountry {
+  height: 20%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.city {
+  margin: 0;
+  font: normal normal normal 26px/26px Heebo;
+  letter-spacing: 0px;
+  color: #e8f1f2;
+}
+.country {
+  margin: 0;
+  font: normal normal 300 22px/22px Heebo;
+  letter-spacing: 0px;
+  color: #a8c6cb;
+}
+.date {
+  font: normal normal 300 22px/22px Heebo;
+  letter-spacing: 0px;
+  color: #a8c6cb;
+}
+
+.weatherContainer {
+  height: 40%;
+  width: 100%;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.temperature {
+  margin: 0;
+  text-align: left;
+  color: #ffffff;
+  font: normal normal bold 130px/150px Heebo;
+  height: 54%;
+  position: relative;
+}
+
+.dote {
+  position: absolute;
+  z-index: 20;
+  top: -1.5rem;
+  right: -2.5rem;
+}
+
+.weather {
+  margin: 0;
+  font: normal normal 300 30px/1px Heebo;
+  color: #e8f1f2;
+}
+
+.detailoContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 90%;
+  height: 15%;
+}
+
+.detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.subject {
+  font: normal normal 300 20px/30px Heebo;
+  color: #e8f1f2;
+}
+.subjectData {
+  font: normal normal 20px/30px Heebo;
+  color: #ffffff;
+}
+.hoursContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 95%;
+  height: 17%;
+}
+
+.hour {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 14px;
+}
+.currentTime {
+  font: normal normal 300 18px/22px Heebo;
+  letter-spacing: 0px;
+  color: #a8c6cb;
+}
+.TimeTemperature {
+  font: normal normal 18px/22px Heebo;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+@media (max-width: 1100px) {
+  .WeatherPopUpContainer {
+    width: 90%;
+    height: 85%;
+    padding: 0.5rem;
+  }
+  .temperature {
+    height: 62%;
+  }
+}
+
+@media (max-width: 600px) {
+  .WeatherPopUpContainer {
+    width: 85%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #236f70;
+    color: white;
+    border-radius: 10px;
+  }
+  .headline {
+    height: 20%;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-end;
+    display: flex;
+    flex-direction: column;
+  }
+  .cityAndCountry {
+    height: 45%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+  .city {
+    font: normal normal normal 18px/24px Heebo;
+    letter-spacing: 0px;
+    color: #e8f1f2;
+  }
+  .country {
+    font: normal normal 300 15px/10px Heebo;
+    letter-spacing: 0px;
+    color: #a8c6cb;
+  }
+  .date {
+    font: normal normal 300 15px/0px Heebo;
+    letter-spacing: 0px;
+    color: #a8c6cb;
+  }
+
+  .weatherContainer {
+    height: 45%;
+    width: 100%;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .temperature {
+    text-align: left;
+    font: normal normal bold 80px/100px Heebo;
+    color: #ffffff;
+    letter-spacing: 0px;
+    height: 40%;
+  }
+  .weather {
+    font: normal 200 20px/10px Heebo;
+    letter-spacing: 0px;
+    color: #e8f1f2;
+  }
+  .dote {
+    position: absolute;
+    z-index: 20;
+    top: -1rem;
+    right: -1.5rem;
+  }
+  .detailoContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 90%;
+    height: 20%;
+  }
+
+  .detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+  }
+
+  .subject {
+    font: normal normal 300 15px/12px Heebo;
+    color: #e8f1f2;
+  }
+
+  .subjectData {
+    font: normal normal 14px/22px Heebo;
+    color: #ffffff;
+  }
+  .hoursContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 95%;
+    height: 15%;
+  }
+
+  .hour {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+  }
+  .currentTime {
+    font: normal normal 300 15px/20px Heebo;
+    letter-spacing: 0px;
+    color: #a8c6cb;
+  }
+  .TimeTemperature {
+    font: normal normal 12px/16px Heebo;
+    letter-spacing: 0px;
+    color: #ffffff;
+  }
+}

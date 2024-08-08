@@ -1,0 +1,214 @@
+.HomePage {
+  background-color: #f1f1f1;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inputContainer {
+  height: 90%;
+  width: 45%;
+}
+.weather {
+  background: #dde4e6 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  height: 90%;
+  width: 45%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.TitleAndInput {
+  height: 80%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.WeatherMessage {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #bad4dbb0;
+  font: normal normal 600 130px/130px Heebo;
+}
+
+.deatailsAndTime {
+  width: 100%;
+  color: #707070;
+  font: normal normal 300 14px/2px Heebo;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Container {
+  width: 85%;
+}
+
+.latitudeAndlongitude {
+  display: flex;
+  gap: 1.5rem;
+}
+@media (max-width: 1100px) {
+  .HomePage {
+    background-color: #f1f1f1;
+    height: 120vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .inputContainer {
+    width: 100%;
+    height: 50%;
+  }
+
+  .deatailsAndTime {
+    height: 30%;
+    width: 100%;
+    color: #707070;
+    font: normal normal 300 14px/2px Heebo;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .Container {
+    width: 85%;
+  }
+
+  .latitudeAndlongitude {
+    display: flex;
+    gap: 1.5rem;
+  }
+
+  .TitleAndInput {
+    height: 70%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .weather {
+    background: #dde4e6 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  .WeatherMessage {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #bad4dbb0;
+    font: normal normal 600 90px/90px Heebo;
+  }
+}
+
+@media (max-width: 600px) {
+  .HomePage {
+    background-color: #f1f1f1;
+    height: 150vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .deatailsAndTime {
+    height: 30%;
+    width: 100%;
+    color: #707070;
+    font: normal normal 300 14px/2px Heebo;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .Container {
+    width: 85%;
+  }
+
+  .latitudeAndlongitude {
+    display: flex;
+    gap: 1.5rem;
+  }
+
+  .TitleAndInput {
+    height: 70%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .weather {
+    background: #dde4e6 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    height: 50%;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (max-height: 768px) {
+  .HomePage {
+    background-color: #f1f1f1;
+    height: 180vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .deatailsAndTime {
+    height: 30%;
+    width: 100%;
+    color: #707070;
+    font: normal normal 300 14px/2px Heebo;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .Container {
+    width: 85%;
+  }
+
+  .latitudeAndlongitude {
+    display: flex;
+    gap: 1.5rem;
+  }
+
+  .TitleAndInput {
+    height: 70%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media (max-height: 600px) {
+  .HomePage {
+    background-color: #f1f1f1;
+    height: 200vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+}
